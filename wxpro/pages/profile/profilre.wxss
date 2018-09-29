@@ -1,0 +1,133 @@
+/* pages/profile/profilre.wxss */
+/*登录状态*/
+.main{
+     font-size:16px;
+    color:#333;
+    border-bottom: 1rpx solid #ddd;
+     padding:30rpx 20rpx;
+     display: flex;
+    
+}
+ .main image{
+    
+    height:50px;
+}
+.myfree{
+    display: flex;
+    flex-direction: column;
+    
+}
+.myname{
+    color:black;
+}
+.mycor{
+    font-size:12px;
+    color:#222;
+}
+.mytex{
+    font-size:10px;
+    color:aqua;
+}
+.mymm  image{
+    width:60rpx;
+    height:60rpx;
+}
+.mymm .main text{
+width:540rpx;
+margin-left: 60rpx;
+
+}
+
+
+
+
+
+.main{
+     font-size:16px;
+    color:#333;
+    border-bottom: 1rpx solid #ddd;
+     padding:15rpx 20rpx;
+}
+.mytt .main image{
+    width:100rpx;
+    height:100rpx;
+}
+.mymm .main image{
+    width:60rpx;
+    height:60rpx;
+}
+.mymm .main text{
+width:540rpx;
+margin-left: 60rpx;
+
+}
+.mytt .mymain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:50px;
+}
+.mytt .mymain text{
+    font-size: 18px;
+    color:#333;
+    padding:20rpx 10rpx;
+    
+}
+.mytt .mymain text.xuxian{
+    color:#f1f1f1;
+    padding-right:20px;
+}
+.mytt .main text{
+width:540rpx;
+margin-left: 60rpx;
+
+}
+.wodemain .kefu image{
+    padding-top:50rpx;
+    width:60rpx;
+    height:60rpx;
+}
+.wodemain .kefu{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.wodemain .kefu text{
+    font-size: 16px;
+    color:#333;
+}
+.swiper-tab{
+width: 100%;
+border-bottom: 2rpx solid #ccc;
+text-align: center;
+height: 88rpx;
+line-height: 88rpx;
+font-weight: bold;
+}
+.swiper-tab-item{
+display: inline-block;
+width: 33.33%;
+color:red;
+}
+.active{
+color:aqua;
+border-bottom: 4rpx solid red;
+}
+
+/*联系客服*/
+.kf_button{
+  background-color: rgba(255, 255, 255, 0);
+  border: 0px;
+  height: 100rpx;
+  bottom: 20rpx;
+ margin-top: 50rpx;
+}
+.kf_button::after{
+  border: 0px;
+}
+.kf_image{
+  z-index: 9999;
+  width: 100rpx;
+  height: 100rpx;
+}

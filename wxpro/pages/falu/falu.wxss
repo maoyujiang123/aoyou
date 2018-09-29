@@ -1,0 +1,104 @@
+/* pages/falu/falu.wxss */
+.falv-nav{
+    display: flex;
+}
+.falv-img{
+    width:50px;
+    height:50px;
+    margin-top:20rpx;
+    margin-left:20rpx;
+    border-radius: 50%;
+}
+.falv-text{
+    display: flex;
+    flex-direction: column;
+}
+.falv-name{
+    font-size:16px;
+    color:#333;
+    margin-top: 20rpx;
+    margin-left: 20rpx;
+}
+.falv-time{
+    font-size:12px;
+    color:#666;
+    margin-top: 20rpx;
+    margin-left: 20rpx;
+}
+.falv-butt{
+    margin-top: 40rpx;
+    margin-left: 150rpx;
+    border-radius: 5%;
+}
+.falv-guanzhu{
+    font-size:12px;
+   border:1px solid red;
+   color:red;
+}
+
+/*协议内容*/
+.falv-xieyi{
+    display: flex;
+    flex-direction: column;
+}
+.falv-head{
+    font-size:18px;
+    color:#000;
+     margin-top: 40rpx;
+    margin-left: 20rpx;
+    margin-bottom: 10rpx;
+}
+.falv-center{
+    font-size:16px;
+    margin-left: 20rpx;
+    color:#6c6c6c;
+    text-indent: 2em;
+}
+/*评论扫码图片*/
+.saoma{
+    margin-top: 15px;
+    margin-left: 50px;
+    width:293px;
+    height:183px;
+}
+
+
+
+/*评论框*/
+.input_null{
+color: #C9C9C9;
+}
+ 
+.release{
+display: flex;
+align-items: flex-end; /*底部对齐*/
+justify-content: space-between; /*两端对齐*/
+box-sizing: border-box;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+padding: 18rpx 0 18rpx 30rpx;
+background-color: #F7F8F7;
+font-size: 28rpx;
+z-index: 999;
+}
+.release .text{
+width: 604rpx;
+min-height: 34rpx;
+max-height: 102rpx; /*最多显示三行*/
+border-width: 15rpx 20rpx; /*使用padding与预期留白不一致，故使用border*/
+border-style: solid;
+border-color: #ffffff;
+line-height: 34rpx;
+font-size: 28rpx;
+background-color: #ffffff;
+border-radius: 4rpx;
+}
+.release .submit{
+width: 116rpx;
+height: 64rpx;
+line-height: 64rpx;
+text-align: center;
+color: #66CC00;
+}

@@ -1,0 +1,63 @@
+<!--pages/main/index.wxml-->
+<!-- <view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">登录成功：{{username}}</text>
+  </view>
+</view> -->
+<!--pages/profile/profilre.wxml-->
+<view class="wodemain">
+        <view class="mydd">
+                <navigator class="main " url="/pages/gerenzx/index?title=navigate" hover-class="navigator-hover">
+                    <image src="/assets/img/louzhu.jpg"></image>
+                    <view class="myfree">
+                        <text class="myname">freedom</text>
+                        <text class="mycor">积分:20  游币:20</text>
+                        <text class="mytex">旅行新人</text>
+                    </view>
+                    <view class="arrow"></view>
+                </navigator>
+
+
+
+                
+                <view class="mymain ">
+                    <navigator >
+                        <text>我的收藏</text>
+                    </navigator>
+                    <navigator >
+                        <text class="xuxian">l</text>
+                        <text>我的好友</text>
+                    </navigator>
+                    <navigator >
+                        <text class="xuxian">l</text>
+                        <text>我的发表</text>
+                    </navigator>
+                </view>
+                
+        </view>
+        <view class="divider"></view>
+        <view class='mymm'>
+                <navigator url="/pages/falu/falu?title=navigate" hover-class="navigator-hover" class="main .arrow">
+                    <image src="/assets/img/falvsm.png"></image>
+                    <text>法律声明</text>
+                </navigator>
+                <navigator class="main .arrow">
+                    <image src="/assets/img/xiaoxi.png"></image>
+                    <text>消息列表</text>
+                </navigator>
+                <view class="divider"></view>
+                <navigator class="main .arrow">
+                    <image src="/assets/img/zhanghaogl.png"></image>
+                    <text>账号管理</text>
+                </navigator>
+                <navigator class="main .arrow">
+                    <image src="/assets/img/shezhi.png"></image>
+                    <text>个人管理</text>
+                </navigator>
+         </view>
+         
+        <button class="kf_button" open-type="contact" session-from="weapp">
+        <image class="kf_image" src="/assets/img/lxkefu.png"></image>
+        </button> 
+</view>

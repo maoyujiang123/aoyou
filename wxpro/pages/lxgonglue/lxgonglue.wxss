@@ -1,0 +1,14 @@
+/* pages/lxgonglue/lxgonglue.wxss */
+.nav-gonglue{
+    display: flex;
+}
+.nav-gonglue .gl-photo{
+    width:33%;
+    margin-left:10px;
+    
+}
+ .nav-gonglue image{
+    width:109px;
+    height:140px;
+    margin:10px 0;
+}

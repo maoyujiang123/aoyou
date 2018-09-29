@@ -1,0 +1,53 @@
+/* pages/beihaidao/beihaidao.wxss */
+.bhd-photo image{
+    width:376px;
+    height:188px;
+}
+.bhd-nav{
+    display: flex;
+}
+.bhd-butt{
+    border-radius: 40%;
+    color:#f1f1f1;
+    margin-bottom: 8px;
+}
+.bhd-butt text{
+    color:#333;
+}
+
+/*美文美图*/
+.bhd-mw{
+    border-bottom: 1px solid #ccc;
+}
+.bhd-pp{
+    display: flex;
+}
+.bhd-pp image{
+    width:97.5px;
+    height:65px;
+}
+.bhd-wz{
+    display: flex;
+    flex-direction: column;
+    margin:13px auto;
+}
+.bhd-wz .bhd-con{
+    font-size:14px;
+    color:#222;
+}
+.bhd-wz .bhd-num{
+    font-size:12px;
+    color:#222;
+    margin-top:10px;
+}
+.bhd-tp image{
+    width:15px;
+    height:10px;
+}
+.bhd-yd{
+    font-size:10px;
+}
+.bhd-tp{
+    margin-top:30px;
+    margin-left:15px;
+}

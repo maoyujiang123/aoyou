@@ -1,0 +1,111 @@
+/* pages/gerenzx/index.wxss */
+page{
+  width:100%;
+  height:100%;
+  overflow: hidden;
+}
+.grmain{
+  background-image: url('http://127.0.0.1:3000/img/louzhu.jpg');
+  background-size: cover;
+}
+.gerenzx{
+    display: flex;
+    flex-direction: column;
+}
+.gerenzx image{
+    width:120rpx;
+    height:120rpx;
+    border-radius: 50%;
+    margin:0 auto;
+    margin-top:50rpx;
+}
+.gerenzx .grname{
+    color:#fff;
+    margin:0 auto;
+    margin-top:10rpx;
+    margin-bottom:10rpx;
+}
+.gerenzx button{
+    width:150rpx;
+    height:50rpx;
+    background-color:#0099ff;
+}
+.gerenzx .grlx{
+    font-size:22rpx;
+    margin:0 auto;
+    
+}
+.fans{
+    display: flex;
+    justify-content: space-around;
+    margin:20rpx auto;
+}
+.fans text{
+    font-size: 26rpx;
+    color:#fff;
+}
+.geqian{
+    font-size: 30rpx;
+    color:#fff;
+    
+    
+}
+.geqian .world{
+    margin-left: 125px;
+  
+    
+}
+/* 下面是选项卡 */
+.swiper-tab {
+  width: 100%;
+ text-align: center;
+  line-height: 80rpx;
+  background-color:white;
+}
+
+.swiper-tab-list {
+  font-size: 30rpx;
+  display: inline-block;
+  width: 50%;
+  color: #777;
+  border-bottom: 0rpx;
+}
+
+.on {
+  color: #da7c0c;
+  border-bottom: 2rpx solid #da7c0c;
+}
+
+.swiper-box {
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiper-box view {
+  text-align: center;
+}
+
+/*资料*/
+.ziliao{
+    display: flex;
+    flex-direction: column;
+    font-size: 34rpx;
+    color:#003300;
+    height:300px;
+    
+}
+.ziliao text{
+    margin:5rpx 0;
+    margin-left:60rpx;
+}
+.nav-dh{
+   display:block;
+   height:100%;
+ 
+}
+.jifen{
+    display: flex;
+    flex-direction: column;
+}

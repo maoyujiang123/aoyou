@@ -1,0 +1,52 @@
+<!--pages/gerenzx/index.wxml-->
+<view class="grmain">
+    <view class="gerenzx">
+        <!--头像-->
+        <image src="/assets/img/louzhu.jpg"></image>
+        <!--昵称-->
+        <text class="grname">freedom</text>
+        <!--头衔-->
+        <button class="grlx">旅行新人</button>
+    </view>
+    <!---->
+    <view class="fans">
+        <text class="canyu">参与:0</text>
+        <text>l</text>
+        <text class="guanzhu">关注:0</text>
+        <text>l</text>
+        <text class="fensi">粉丝:0</text>
+    </view>
+    <!--个人签名-->
+    <view class="geqian">
+        <text class="world">外面的世界很精彩！</text>
+    </view>
+</view>
+<view class="swiper-tab">
+    <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="tabNav">发表(0)</view>
+    <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="tabNav">资料</view>
+</view>
+<swiper class="nav-dh"current="{{currentTab}}" duration="1000"  >
+    <!--发表-->
+    <swiper-item class="fabiao">
+      
+          
+    </swiper-item>
+    <!--资料-->
+     <swiper-item class="ziliao">
+            <text>性别</text>
+            <text>玩过的地方</text>
+            <text>擅长区域</text>
+            <text>带团时间</text>
+            <text>自我介绍</text>
+            
+            <view class='divider'></view>
+            <view class="jifen">
+                <text>积分:20</text>
+                
+                <text>游币:20</text>
+                
+            </view>
+          
+    </swiper-item>
+</swiper>
+   

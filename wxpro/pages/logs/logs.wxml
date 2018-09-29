@@ -1,0 +1,119 @@
+<!--图片轮播  组件-->
+<!--图片轮播  组件尽量使用原生自带效率好一些-->
+<view class="slider">
+  <swiper autoplay interval="3500" indicator-dots="{{false}}">
+     <swiper-item wx:for="{{lunbo}}" wx:key="id">
+       <!--图片 设置宽高 等比例缩放-->
+       <image src="{{item.img_url}}"
+        mode="aspectFill" width="375" height="150"/>
+     </swiper-item>
+     
+  </swiper>
+</view>
+<!--搜索框-->
+<view class="nav-index ">
+    <navigator class="nav-img" url="/pages/search/search?title=navigate" hover-class='navigator-hover'>
+        <image src="/assets/img/shousuo.png"></image>
+    </navigator>
+</view>
+<!--导航栏-->
+ <view class="divider"></view>
+<view class="nav-daohang bgw mt20">
+    <navigator class="nav-img" url="/pages/lxgongju/lxgongju?title=navigate" hover-class='navigator-hover'>
+        <image src="http://maoyujiang.applinzi.com/img/luxing.png"></image>
+    </navigator>
+     <navigator class="nav-img"  url="/pages/lxgonglue/lxgonglue?title=navigate" hover-class='navigator-hover'>
+        <image src="http://maoyujiang.applinzi.com/img/luxing2.png"></image>
+    </navigator>
+    
+</view>
+ <view class="divider"></view>
+<!--热门话题-->
+<view class="nav-index  ">
+    <view class='rmht'>
+        <view class='ddv'>l</view>
+        <text class='ddvv'>热门话题</text>
+    </view>
+    <!-- <view class="nav-img"   bindtap='golvxing' wx:for="{{nav}}" wx:key="id" >
+        <image src="{{item.img_url}}"></image>
+    </view> -->
+     <view class="nav-img"  bindtap='golvxing'>
+        <image src="http://maoyujiang.applinzi.com/img/nav1.png"></image>
+    </view>
+    <view class="nav-img"  bindtap='gomeishi'>
+        <image src="http://maoyujiang.applinzi.com/img/nav2.png"></image>
+    </view><view class="nav-img"  bindtap='gojwy'>
+        <image src="http://maoyujiang.applinzi.com/img/nav3.png"></image>
+    </view>
+     
+</view>
+<!--游记-->
+<view class="swiper-tab">
+    <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="tabNav">最新游记</view>
+    <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="tabNav">精选游记</view>
+</view>
+   
+<swiper class="nav-youji"current="{{currentTab}}" duration="1000"  >
+    <!--最新游记-->
+    <swiper-item class="zuixinyj">
+        <view class='youji' wx:for="{{youji}}" wx:key="id">
+            <navigator>
+                    <!--头像名称-->
+                    <view class='pig'>
+                        <image src="{{item.img_url}}"></image>
+                        <view class='pig-baozi'>
+                                <text class="name">{{item.uname}}</text>
+                                <text class='hour'>{{item.time}}</text>
+                        </view>
+                    </view>
+                    <!--标题-->
+                    <view class='title'>
+                        <text>{{item.title}}</text>
+                    </view>
+                    <!--内容-->
+                    <view class='content'>
+                        <text>{{item.content}}</text>
+                    </view>
+                    <!--照片-->
+                    <view class='photo'>
+                        <image src="/assets/img/a1.jpg"></image>
+                        <image src="/assets/img/a2.jpg"></image>
+                        <image src="/assets/img/a3.jpg"></image>
+                    </view>
+            </navigator>
+        </view>
+       <view class="loadmore loading" wx:if="{{hasMore}}">正在加载。。。</view>
+    <view class="loadmore" wx:else>我也是有底线的☹</view>
+    </swiper-item>
+    <!--精选游记-->
+    <swiper-item>
+        <view class='youji' wx:for="{{youji}}" wx:key="id">
+            <navigator>
+                    <!--头像名称-->
+                    <view class='pig'>
+                        <image src="{{item.img_url}}"></image>
+                        <view class='pig-baozi'>
+                                <text class="name">{{item.uname}}</text>
+                                <text class='hour'>{{item.time}}</text>
+                        </view>
+                    </view>
+                    <!--标题-->
+                    <view class='title'>
+                        <text>{{item.title}}</text>
+                    </view>
+                    <!--内容-->
+                    <view class='content'>
+                        <text>{{item.content}}</text>
+                    </view>
+                    <!--照片-->
+                    <view class='photo'>
+                        <image src="/assets/img/a1.jpg"></image>
+                        <image src="/assets/img/a2.jpg"></image>
+                        <image src="/assets/img/a3.jpg"></image>
+                    </view>
+            </navigator>
+        </view>
+       <view class="loadmore loading" wx:if="{{hasMore}}">正在加载。。。</view>
+    <view class="loadmore" wx:else>我也是有底线的☹</view>
+    </swiper-item>
+</swiper>

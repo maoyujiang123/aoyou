@@ -1,0 +1,42 @@
+<!--pages/details/details.wxml-->
+<view class="cell-item cell">
+    <text class="bmy-text">#跟着领队去旅行#两千多年前的秦始皇兵马</text>
+</view>
+<view class="falv-nav">
+    <image class='falv-img' src="/assets/img/louzhu.jpg"></image>
+    <view class="falv-text">
+        <text class="falv-name">张潘秋</text>
+        <text class="falv-time">楼主 2018-08-18 10:39:57</text>
+    </view>
+    <view class="falv-butt">
+        <button class="falv-guanzhu" bindtap="showok">+关注</button>
+    </view>
+</view>
+<view class="bmy-center">
+    <view class="bmy-wen">
+            <text class="bmy-zhuti">#跟着领队去旅行# </text>
+            <text>两千多年前的秦始皇兵马俑百看不厌，古都西安更是魅力不减。            </text>
+    </view>
+   
+    <view wx:for="{{bmylist}}" wx:key="id">
+        <image src="{{item.img_url}}"></image>
+    </view>
+</view>
+
+
+<!-- 留言--------------------------------- -->
+  <view class='msg_box'>
+     <view class='send_box'>
+        <input value='{{inputVal}}' bindinput='changeinputVal' class='input' type='text' placeholder='请留言...' placeholder-class='pl_input'></input>
+        <button class='button' type='primary' bindtap='add'>评论</button>
+     </view>
+     <view class='tip' wx:if='{{msgData.length==0}}'>暂无留言...^_^...</view>
+     <!-- 留言列表--------------------------- -->
+     <view class='msgnav'>
+        <view class='msglist' wx:for="{{msgData}}" wx:key="{{index}}">
+           <text class='msg'>{{item.msg}}</text>
+           <icon data-index='{{index}}' bindtap='del' class='icon' type='cancel'></icon>
+        </view>
+     </view>
+  </view>
+

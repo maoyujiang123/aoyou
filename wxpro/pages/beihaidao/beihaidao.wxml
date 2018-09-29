@@ -1,0 +1,31 @@
+<!--pages/beihaidao/beihaidao.wxml-->
+<!--顶部图片-->
+<view class="bhd-photo">
+    <image src="/assets/img/beihaidao.png"></image>
+</view>
+<!--button按钮-->
+<view class="bhd-nav">
+    <button class="bhd-butt"><text>城市档案</text></button>
+    <button class="bhd-butt"><text>行·交通</text></button>
+    <button class="bhd-butt"><text>游·交通</text></button>
+</view>
+<view class="bhd-nav">
+    <button class="bhd-butt"><text>旅游信息</text></button>
+    <button class="bhd-butt"><text>购·潮流</text></button>
+    <button class="bhd-butt"><text>吃·美食</text></button>
+</view>
+<!--美图美文-->
+<view class="bhd-mw" wx:for="{{bhdlist}}" wx:key="{{id}}">
+    <navigator class="bhd-pp">
+        <image src="{{item.img_url}} "></image>
+        <view class="bhd-wz">
+            <text class="bhd-con">{{item.title}}</text>
+            <text class="bhd-num">{{item.time}}</text>
+        </view>
+        <view class="bhd-tp">
+            <image src="/assets/img/yanjing.png"></image>
+            <text class="bhd-yd">{{item.num}}</text>
+        </view>
+    </navigator>
+</view>
+

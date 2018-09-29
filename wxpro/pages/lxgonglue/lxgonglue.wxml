@@ -1,0 +1,46 @@
+<!--pages/lxgonglue/lxgonglue.wxml-->
+<view style="text-align:center">  </view>
+<view class="nav-gonglue">
+    <navigator class="gl-photo"  url="/pages/beihaidao/beihaidao?title=navigate" hover-class='navigator-hover'>
+        <image src="http://maoyujiang.applinzi.com/img/gl.png"></image>
+    </navigator>
+    <navigator class="gl-photo" class="gl-photo"  url="/pages/beihaidao/beihaidao?title=navigate" hover-class='navigator-hover'>
+        <image src="http://maoyujiang.applinzi.com/img/gl2.png"></image>
+    </navigator>
+    <navigator class="gl-photo" class="gl-photo"  url="/pages/beihaidao/beihaidao?title=navigate" hover-class='navigator-hover'>
+        <image src="http://maoyujiang.applinzi.com/img/gl3.png"></image>
+    </navigator>
+</view>
+<view class="nav-gonglue" >
+    <navigator class="gl-photo" class="gl-photo"  url="/pages/beihaidao/beihaidao?title=navigate" hover-class='navigator-hover'>
+        <image src="http://maoyujiang.applinzi.com/img/gl4.png"></image>
+    </navigator>
+    <navigator class="gl-photo" class="gl-photo"  url="/pages/beihaidao/beihaidao?title=navigate" hover-class='navigator-hover'>
+        <image src="http://maoyujiang.applinzi.com/img/gl5.png"></image>
+    </navigator>
+    <navigator class="gl-photo" class="gl-photo"  url="/pages/beihaidao/beihaidao?title=navigate" hover-class='navigator-hover'>
+        <image src="http://maoyujiang.applinzi.com/img/gl6.png"></image>
+    </navigator>
+</view>
+<view class="nav-gonglue">
+    <navigator class="gl-photo" class="gl-photo"  url="/pages/beihaidao/beihaidao?title=navigate" hover-class='navigator-hover' >
+        <image src="http://maoyujiang.applinzi.com/img/gl7.png"></image>
+    </navigator>
+    <navigator class="gl-photo" class="gl-photo"  url="/pages/beihaidao/beihaidao?title=navigate" hover-class='navigator-hover'>
+        <image src="http://maoyujiang.applinzi.com/img/gl8.png"></image>
+    </navigator>
+    <navigator class="gl-photo" class="gl-photo"  url="/pages/beihaidao/beihaidao?title=navigate" hover-class='navigator-hover'>
+        <image src="http://maoyujiang.applinzi.com/img/gl9.png"></image>
+    </navigator>
+</view>
+<view class="nav-gonglue">
+    <navigator class="gl-photo" class="gl-photo"  url="/pages/beihaidao/beihaidao?title=navigate" hover-class='navigator-hover'>
+        <image src="http://maoyujiang.applinzi.com/img/gl10.png"></image>
+    </navigator>
+    <navigator class="gl-photo" class="gl-photo"  url="/pages/beihaidao/beihaidao?title=navigate" hover-class='navigator-hover'>
+        <image src="http://maoyujiang.applinzi.com/img/gl11.png"></image>
+    </navigator>
+    <navigator class="gl-photo" class="gl-photo"  url="/pages/beihaidao/beihaidao?title=navigate" hover-class='navigator-hover'>
+        <image src="http://maoyujiang.applinzi.com/img/gl12.png"></image>
+    </navigator>
+</view>

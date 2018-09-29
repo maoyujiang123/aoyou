@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+  <!--相对路径获取图片方式-->
+  <image src="../../assets/images/banner-01.png"></image>
+  <!--绝对路径获取图片方式-->
+  <image src="/assets/images/banner-01.png"
+  mode="aspectFill"
+  width="375" height="150"></image>
+  <!--项目为了节省空间 2MB-->
+  <!--将图片保存独立服务器-->
+  <!--image src="http://cdn.x.m/1.jpg"-->
+  <!--项目空间超过 2MB 不允许上传-->
+</view>

@@ -1,0 +1,42 @@
+<!--pages/lxgongju/lxgongju.wxml-->
+<!--温馨提示-->
+<view class="gjx-img">
+    <image src="http://maoyujiang.applinzi.com/img/wxts.jpg"></image>
+   
+</view>
+ <view class="divider"></view>
+<!--国内旅游工具-->
+<view class='gjx-gn'>
+    <view class="gjx-no">
+            <view class="gjx-kb"></view>
+            <text class="gjx-wz">国内旅游工具</text>
+    </view>
+    <view class='gjx-tp'>
+        <image src="http://maoyujiang.applinzi.com/img/gjx1.jpg"></image>
+        <image src="http://maoyujiang.applinzi.com/img/gjx2.jpg" bindtap='gomap'></image>
+        <image src="http://maoyujiang.applinzi.com/img/gjx3.jpg"></image>
+    </view>
+    <view class='gjx-tp'>
+        <image src="http://maoyujiang.applinzi.com/img/gjx4.jpg"></image>
+        <image src="http://maoyujiang.applinzi.com/img/gjx5.jpg"></image>
+        <image src="http://maoyujiang.applinzi.com/img/gjx6.jpg"></image>
+    </view>
+</view>
+<view class="divider"></view>
+<!--处境旅游必备工具-->
+<view class='gjx-gn'>
+    <view class="gjx-no">
+            <view class="gjx-kb"></view>
+            <text class="gjx-wz">处境旅游必备工具</text>
+    </view>
+    <view class='gjx-tp'>
+        <image src="http://maoyujiang.applinzi.com/img/gjx7.jpg"></image>
+        <image src="http://maoyujiang.applinzi.com/img/gjx8.jpg"></image>
+        <image src="http://maoyujiang.applinzi.com/img/gjx9.jpg"></image>
+    </view>
+    <view class='gjx-tp'>
+        <image src="http://maoyujiang.applinzi.com/img/gjx10.jpg"></image>
+        <image src="http://maoyujiang.applinzi.com/img/gjx11.jpg"></image>
+        <image src="http://maoyujiang.applinzi.com/img/gjx12.jpg"></image>
+    </view>
+</view>

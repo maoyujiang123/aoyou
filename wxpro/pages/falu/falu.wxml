@@ -1,0 +1,75 @@
+<!--pages/falu/falu.wxml-->
+<!-- <view style="text-align:center"> {{title}} </view>
+<view> 点击左上角返回回到之前页面 </view> -->
+
+<view class="cell-item cell">
+    <text>遨游论坛(遨游客APP)用户注册协议</text>
+</view>
+<view class="falv-nav">
+    <image class='falv-img' src="/assets/img/louzhu.jpg"></image>
+    <view class="falv-text">
+        <text class="falv-name">誉鸣</text>
+        <text class="falv-time">楼主 2016-06-22 16:31:37</text>
+    </view>
+    <view class="falv-butt">
+        <button class="falv-guanzhu" bindtap="showgz">关注TA</button>
+    </view>
+</view>
+<!--协议内容-->
+<view class="falv-xieyi">
+    <text class="falv-head">尊敬的用户：</text>
+    <text class="falv-center">在此特别提醒您在注册成为遨游论坛即遨游客APP（以下简称“遨游客”）用户之前，请认真阅读本《用户协议》（以下简称“协议”），确保您充分理解本协议中各条款。您的注册、登录、使用等行为将视为对本协议的接受，并同意接受本协议各项条款的约束。</text>
+</view>
+<view class="falv-xieyi">
+    <text class="falv-head">一：账号注册</text>
+    <text class="falv-center">1、用户在使用本服务前需要注册一个“遨游客”账号。“遨游客”账号可使用QQ、微信注册但需使用手机号码绑定注册。</text>
+    <text class="falv-center">2、用户注册时应当授权遨游客公开及使用其个人信息方可成功注册“遨游”账号（如微信登陆、QQ登陆时需要授权读取该授权账号用户名、个人资料，手机注册时需要验证码授权）。故用户完成注册即表明用户同意遨游客提取、公开用户的信息（性别、个人主页、自我介绍部分用户填写或者授权的信息）。</text>
+    <text class="falv-center">3、鉴于“遨游”账号的绑定注册方式，您同意遨游网在注册时将允许您的手机号码及手机设备识别码等信息用于注册。</text>
+</view>
+
+<view class="dakongbai"></view>
+<view class="falv-xieyi">
+    <text class="falv-head">二：用户发布内容规范</text>
+    <text class="falv-center">1、本条所述内容是指用户使用遨游客的过程中的任何内容，包括但不限于账号头像、名称、用户说明等注册信息及认证资料，或文字、语音、图片、视频等信息，以及其他使用账号或本服务所产生的内容。</text>
+    <text class="falv-center">2、用户不得利用“遨游客”账号或本服务制作、上载、复制、发布、传播违反国家法律、行政法规禁止的非法行为，不得发布色情、破坏国家统一、散布谣言影响社会稳定的行为。</text>
+    <text class="falv-center">3、注册用户不得发布、传播干扰遨游平台正常运营的行为，以及骚扰侵犯其他用户行为。如垃圾广告、恶意信息、诱骗信息、侵害他人个人信息、名誉权、肖像权、知识产权及干扰本服务正常运营和侵权其他用户第三方合法权益的信息内容。</text>
+     <text class="falv-center">4、您在遨游客分享的信息应为您个人原创，否侧须确保已取得权利人授权并标明来源，任何第三方对您发布的内容提出异议时我们有权不经通知即删除相应内容。</text>
+    <text class="falv-center">5、中青旅遨游客上的部分信息来自于第三方或网友的提供，我们均以该信息的"原貌"进行发布，且任何信息都存在滞后会被更新的可能，因此遨游客不能保证在任何时候任何信息都100％的准确无误。网站上的信息面向的是所有的用户，因此很多信息具有普遍性，且需满足大众的需求，但不一定适合你的特定需要。在旅行前，你应仔细确认如</text>
+    <text class="falv-center">6、遨游客平台作为论坛信息分享传播平台，用户上传信息内容包含但不局限于文字、图片、语音、视频等内容方式，则代表同意该信息内容在遨游客平台的展示并允许遨游客在自有平台不局限于网站PC平台、移动WAP、APP平台及其他自有平台展示方式。</text>
+</view>
+<view class="dakongbai"></view>
+<view class="divider"></view>
+<!--评论-->
+<view class="cell-item">
+    <text class="cell bdr">评论</text>
+    
+</view>
+<view class="falv-nav">
+    <image class='falv-img' src="/assets/img/louzhu.jpg"></image>
+    <view class="falv-text">
+        <text class="falv-name">誉鸣</text>
+        <text class="falv-time">扫码下载遨游客app</text>
+    </view>
+</view>
+<view >
+    <image class="saoma" src='/assets/img/saoma1.jpg'></image>
+    <image class="saoma bdr"src='/assets/img/saoma2.jpg'></image>
+</view>
+<view class="bdr"></view>
+
+
+<!--评论框-->
+<view class="talk" bindtap="bindReply">回复</view>
+ 
+<view class="release" hidden="{{!releaseFocus}}">
+<textarea class="text"
+placeholder-class="input_null"
+fixed="true"
+maxlength="-1"
+show-confirm-bar="false"
+cursor-spacing="15"
+auto-height="true"
+focus="{{releaseFocus}}"
+placeholder="回复 {{releaseName}}"></textarea>
+<view class="submit">发送</view>
+</view>
